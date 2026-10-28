@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "me.filot/gold",
+  "title": "FiLot: gold prices and gold bar records",
+  "description": "World gold price in any currency, FiLot gold record checks, Indonesian dealer gold prices and tax.",
+  "version": "1.2.0",
+  "websiteUrl": "https://filot.me/ai-assistants/",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.filot.me/mcp"
+    },
+    {
+      "type": "streamable-http",
+      "url": "https://api.filot.me/functions/v1/filot-mcp"
+    }
+  ]
+}
