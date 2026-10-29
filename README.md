@@ -13,7 +13,7 @@ A remote MCP server for gold prices and gold-bar records. Read-only, public, no 
 |---|---|
 | `world_gold_price` | Today's world (spot) gold price per gram, troy ounce and kilogram, in any currency |
 | `gold_price_on_date` | The world gold price on a past date, for a tax return, an inheritance or a purchase record |
-| `gold_buyback_prices` | What Indonesian dealers pay today for one bar of a given brand and weight, in rupiah |
+| `gold_buyback_prices` | What Indonesian dealers pay today for one bar of a given brand and weight, in rupiah, set beside the world value of the gold; an optional `offer_idr` (a price someone offered) is compared in numbers only |
 | `gold_price_sources` | Which dealer sites FiLot reads, and the latest price day of each |
 | `indonesian_gold_tax` | Indonesian tax facts for physical gold: PPN, PPh 22, thresholds, and what applies to a buyer or a seller |
 | `gold_zakat` | Zakat on gold: nisab, rate and due date |
